@@ -16,14 +16,14 @@
 
 ### 二、使用方式
 - 加锁方式
-> 1. 注解方式
+> 注解方式
 ```java
 @Lock(value="goods", leaseTime=5)
 public String lockDecreaseStock() {
     //业务逻辑
 }
 ```
-> 2. 常规方式
+> 常规方式
 ```java
 redissonLock.lock("lock", 10L);
     //业务逻辑
@@ -48,5 +48,6 @@ redisson:
 
 ### 参考文档
 [spring-boot-distributed-redisson](https://github.com/yudiandemingzi/spring-boot-distributed-redisson)
+
 [Redisson实现分布式锁](https://www.cnblogs.com/qdhxhz/p/11046905.html)
 
