@@ -46,7 +46,7 @@ redisson:
 - 推荐使用方式
 > 常规加锁。注解方式加锁为整个方法，颗粒度太大。
 
-### 参考文档
+### 三、参考文档
 [spring-boot-distributed-redisson](https://github.com/yudiandemingzi/spring-boot-distributed-redisson)
 
 [Redisson实现分布式锁](https://www.cnblogs.com/qdhxhz/p/11046905.html)
